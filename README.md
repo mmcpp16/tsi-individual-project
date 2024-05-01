@@ -33,8 +33,8 @@ Functions to be Doubled:
 - TestWordleGameCommonMethods
 - TestNormalModeWordleGame
 - TestHardModeWordleGame
-- TestNormalModeWordComparer
-- TestHardModeWordComparer
+- TestNormalModeComparer
+- TestHardModeComparer
 
 #### Stubs
 
