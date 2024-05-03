@@ -10,6 +10,7 @@ Input validation ensures that user inputs guesses that are exactly 5 letters, an
 
 Tests are found in the subdirectory 'tests', and the program itself is run through the Main.py script.
 
+
 ## Doubling Tests
 
 ### Code to be Doubled
@@ -43,7 +44,6 @@ Functions to be Doubled:
 
 #### Mocks
 
-- test_file_not_found_error_handling: This test mocks the behaviour of sys.exit() when the given file does not exist.
 - test_invalid_word_handling - This test mocks the external dictionary call (PyDictionary.meaning) to simulate valid and invalid word checks.
 - test_hard_mode_get_user_guess_invalid_guess: This method (along with all methods in TestNormalModeWordleGame and TestHardModeWordleGame) uses MagicMock to mock the user input and the random selection of word. This enables testing of user interactions and output messages without requiring actual user input or displaying messages to the console. Furthermore, mocking random.choice allows controlling the selected word during testing.
 
