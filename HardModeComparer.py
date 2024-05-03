@@ -10,4 +10,5 @@ class HardModeComparer(WordComparer):
             elif char2 in word:
                 misplaced_letters +=1
         print("Correctly placed letters:", correct_letters,"\nMisplaced letters:", misplaced_letters)
+        return correct_letters, misplaced_letters
 
