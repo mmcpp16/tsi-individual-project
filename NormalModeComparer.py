@@ -11,3 +11,4 @@ class NormalModeComparer(WordComparer):
             else:
                 feedback_symbols[i] = '-'
         print("Feedback:", " ".join(feedback_symbols))
+        return feedback_symbols
