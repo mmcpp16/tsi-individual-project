@@ -20,6 +20,7 @@ class WordleGame:
                 self.wordbank = file.read().split()
         except FileNotFoundError:
             print(f"Error: File '{self.filename}' not found.")
+            exit(1)
 
     def display_intro(self):
         print("\nWelcome to Wordle!\n")
