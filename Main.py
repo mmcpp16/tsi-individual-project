@@ -1,5 +1,5 @@
-from WordleGame import WordleGame
-from WordComparer import WordComparer
+from src.WordleGame import WordleGame
+from src.WordComparer import WordComparer
 
 if __name__ == "__main__":
     game = WordleGame('wordbank.txt', WordComparer())
