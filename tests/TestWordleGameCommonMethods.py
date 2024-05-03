@@ -11,8 +11,7 @@ class TestWordleGameCommonMethods(unittest.TestCase):
         game = WordleGame('test_wordbank.txt', None)
         self.assertEqual(game.wordbank, ['ARISE', 'STARE', 'CANOE', 'SAUCE'])
 
-    @patch('builtins.print')
-    def test_file_not_found_error_handling(self, mock_print):
+    def test_file_not_found_error_handling(self):
         with self.assertRaises(SystemExit):
             game = WordleGame('fake_file.txt', MagicMock())
 
